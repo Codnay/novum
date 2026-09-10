@@ -48,21 +48,6 @@
   color: var(--fg);
 }
 
-.notify__eyebrow {
-  display: inline-flex;
-  align-items: center;
-  gap: 10px;
-  color: var(--accent);
-}
-
-.notify__dot {
-  width: 8px;
-  height: 8px;
-  border-radius: 50%;
-  background: var(--accent);
-  animation: pulse 2s ease-out infinite;
-}
-
 .notify__title {
   font-size: clamp(28px, 3.2vw, 40px);
   line-height: 1.02;

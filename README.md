@@ -41,6 +41,6 @@ The button on the paper card opens a modal that collects an email. It POSTs `{ e
 
 ## Contact addresses
 
-`hello@novum.build` (general, "Get notified") and `careers@novum.build` (roles) are set in `src/content/site.ts`. Location is Bengaluru.
+`hello@novum.build` (general, "Get notified") and `careers@novum.build` (roles) are set in `src/content/site.ts`. Locations: San Francisco for the research and robotics roles, Bengaluru for Member of Technical Staff.
 
 Clips are rotated 90° clockwise (`-vf transpose=1`, the top camera is mounted sideways) and encoded at a constant 30 fps (`-fps_mode cfr -r 30`) so the browser plays them without timing jitter. Both play at 1× real time; the tags say the autonomous policy was trained on data at the speed shown in the teleop panel.

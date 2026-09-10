@@ -78,13 +78,13 @@ export const roles: Role[] = [
   {
     title: 'Research Scientist, Policy Learning',
     blurb: 'Train the policies that run 10× past their demonstrations.',
-    meta: 'Bengaluru · On-site · Full-time',
+    meta: 'San Francisco · On-site · Full-time',
     href: 'mailto:careers@novum.build?subject=Research%20Scientist%2C%20Policy%20Learning',
   },
   {
     title: 'Robotics Engineer, Real-Time Control',
     blurb: 'Close the loop from model output to motor, at kilohertz.',
-    meta: 'Bengaluru · On-site · Full-time',
+    meta: 'San Francisco · On-site · Full-time',
     href: 'mailto:careers@novum.build?subject=Robotics%20Engineer%2C%20Real-Time%20Control',
   },
   {

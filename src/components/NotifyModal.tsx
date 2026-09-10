@@ -53,11 +53,6 @@ export function NotifyModal({ open, onClose }: NotifyModalProps) {
           </svg>
         </button>
 
-        <span className="mono notify__eyebrow">
-          <span className="notify__dot" aria-hidden="true" />
-          {paper.status}
-        </span>
-
         {status === 'done' ? (
           <div className="notify__done">
             <h2 id="notify-title" className="notify__title">{copy.done}</h2>
