@@ -10,9 +10,9 @@ npm run build    # outputs dist/
 
 ## Deploying
 
-Pushing to `main` runs `.github/workflows/pages.yml`, which builds the site and publishes `dist/` to GitHub Pages at https://codnay.github.io/novum/. The build copies `index.html` to `404.html` so `/careers` loads on a direct visit.
+The site is hosted on Vercel from this repo: every push to `main` deploys, and pull requests get preview URLs. `vercel.json` rewrites all paths to `index.html` (so `/careers` loads directly) and sets long cache headers on `/media`. The default build base is `/`, for the root domain.
 
-To serve from a root domain (e.g. novum.build), set `VITE_BASE=/` for the build, add a `CNAME` file to `public/`, and point the domain at GitHub Pages in the repo settings.
+`.github/workflows/pages.yml` still publishes a copy to GitHub Pages at https://codnay.github.io/novum/ with `VITE_BASE=/novum/`; delete the workflow if that mirror is not wanted.
 
 ## Where things live
 
